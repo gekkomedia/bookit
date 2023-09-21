@@ -40,7 +40,7 @@ nav {
 }
 
 .by {
-  width: 40px;
+  width: 180px;
   height: auto;
 }
 
@@ -64,7 +64,7 @@ video::-webkit-media-controls {
   }
 
   .by {
-    width: 60px;
+    width: 140px;
     height: auto;
   }
 }
