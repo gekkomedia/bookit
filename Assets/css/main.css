@@ -6,6 +6,11 @@ nav {
 
 }
 
+.logo {
+  width: 60px;
+  height: auto;
+}
+
 .bookit-gif {
   width: 50%;
   height: auto;
@@ -20,11 +25,35 @@ nav {
   position: absolute;
 }
 
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.by {
+  width: 15%;
+  height: auto;
+}
+
 video::-webkit-media-controls {
 
 }
 
 @media only screen and (max-width: 600px) {
+  .logo {
+    width: 40px;
+    height: auto;
+  }
+
   .video-icon {
     width: 44px;
     height: auto;
@@ -32,5 +61,10 @@ video::-webkit-media-controls {
     padding-top: 10px;
     overflow: hidden;
     position: absolute;
+  }
+
+  .by {
+    width: 30%;
+    height: auto;
   }
 }
