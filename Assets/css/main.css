@@ -1,0 +1,36 @@
+body {
+
+}
+
+nav {
+
+}
+
+.bookit-gif {
+  width: 50%;
+  height: auto;
+}
+
+.video-icon {
+  width: 54px;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  overflow: hidden;
+  position: absolute;
+}
+
+video::-webkit-media-controls {
+
+}
+
+@media only screen and (max-width: 600px) {
+  .video-icon {
+    width: 44px;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    position: absolute;
+  }
+}
