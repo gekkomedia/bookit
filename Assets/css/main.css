@@ -52,9 +52,23 @@ nav {
   color: #1cac84;
 }
 
+.i-dark {
+  color: #000;
+  filter: opacity(0.6);
+}
+
+.i-dark > .feather {
+  width: 25px;
+  height: 25px;
+}
+
+.i-spinner {
+  color: #fff;
+}
+
 .feather {
   width: 30px;
-  height: auto;
+  height: 30px;
 }
 
 video::-webkit-media-controls {
