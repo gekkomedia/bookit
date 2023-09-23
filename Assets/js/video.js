@@ -4,22 +4,16 @@ const button_audio = document.querySelector("#btn-custom")
 const button_play = document.querySelector("#btn-custom")
 // set the pause button to display:none by default
 document.querySelector("#volume").style.display = "none"
-// update the progress bar
-video.addEventListener("timeupdate", () => {
-    if(video.muted){
-        document.querySelector("#mute").style.display = "block"
-        document.querySelector("#volume").style.display = "none"
-    } else {
-      document.querySelector("#mute").style.display = "none"
-      document.querySelector("#volume").style.display = "block"
-    }
-})
 
 function toggle_audio() {
   if(video.muted){
       video.muted = false
+      document.querySelector("#mute").style.display = "block"
+      document.querySelector("#volume").style.display = "none"
   } else {
     video.muted = true
+    document.querySelector("#mute").style.display = "none"
+    document.querySelector("#volume").style.display = "block"
   }
 }
 
