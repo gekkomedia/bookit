@@ -7,12 +7,12 @@ const button_play = document.querySelector("#btn-custom")
 function toggle_audio() {
   if(video.muted){
       video.muted = false
-      document.querySelector("#mute").style.display = "block"
-      document.querySelector("#volume").style.display = "none"
+      document.querySelector("#mute").style.display = "none"
+      document.querySelector("#volume").style.display = "block"
   } else {
     video.muted = true
-    document.querySelector("#mute").style.display = "none"
-    document.querySelector("#volume").style.display = "block"
+    document.querySelector("#mute").style.display = "block"
+    document.querySelector("#volume").style.display = "none"
   }
 }
 
