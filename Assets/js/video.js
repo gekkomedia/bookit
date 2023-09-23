@@ -4,7 +4,6 @@ const button_audio = document.querySelector("#btn-custom")
 const button_play = document.querySelector("#btn-custom")
 // set the pause button to display:none by default
 document.querySelector("#volume").style.display = "none"
-document.querySelector("#play").style.display = "none"
 
 function toggle_audio() {
   if(video.muted){
