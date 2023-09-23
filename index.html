@@ -43,11 +43,21 @@
         <div class="col-12 d-flex justify-content-center mt-5 mb-5">
 
           <div class="card no-border">
-            <video autoplay loop muted controls class="card-img" poster="">
+            <video autoplay loop muted id="video" class="card-img" poster="">
               <source src="Assets/videos/Video.mp4" type="video/mp4" />
             </video>
+
             <div class="card-img-overlay">
-              <img class="card-title video-icon" src="Assets/Images/play-icon.svg" alt="video indicator">
+              <button type="button" name="button" class="btn-empty" onclick="toggle_video()">
+                <img id="play" class="card-title video-icon" src="Assets/Images/play-icon.svg" alt="video indicator">
+                <img id="pause" class="card-title video-icon" src="Assets/Images/pause-icon.svg" alt="video indicator">
+              </button>
+            </div>
+            <div class="card-footer i-footer text-end">
+              <button id="btn-custom" type="button" name="button" class="btn-custom" onclick="toggle_audio()">
+                <i id="mute" class="mute-icon" data-feather="volume-x"></i>
+                <i id="volume" class="mute-icon" data-feather="volume-2"></i>
+              </button>
             </div>
           </div>
 
@@ -94,9 +104,8 @@
       feather.replace();
     </script>
 
-    <script src="Assets/js/scroll.js" type="text/javascript">
-
-    </script>
+    <script src="Assets/js/scroll.js" type="text/javascript"></script>
+    <script src="Assets/js/video.js" type="text/javascript"></script>
 
   </body>
 </html>

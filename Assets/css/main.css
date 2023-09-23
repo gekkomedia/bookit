@@ -37,6 +37,36 @@ body {
   margin-left: 0;
 }
 
+.i-footer {
+  border: none;
+  position: sticky;
+  margin-top: -65px;
+}
+
+.btn-custom {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.35) !important;
+  border-radius: 100%;
+}
+
+.btn-empty {
+  border: none;
+  background: none;
+}
+
+.muted > #mute {
+  display: none;
+}
+
+.mute-icon {
+  color: #fff;
+  width: 20px !important;
+  height: 20px;
+}
+
 .no-border {
   border: none !important;
 }
