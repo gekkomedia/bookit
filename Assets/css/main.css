@@ -57,10 +57,6 @@ body {
   background: none;
 }
 
-.muted > #mute {
-  display: none;
-}
-
 .mute-icon {
   color: #fff;
   width: 20px !important;
